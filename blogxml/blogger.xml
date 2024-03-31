@@ -60,12 +60,11 @@ window.history.replaceState({}, document.title, clean_uri);
 <b:skin version='1.0.0'><![CDATA[/* 
 -----------------------------------------------
 Blogger Template Style
-Name:        Freepic
-License:     Premium Version
+Name:        HexEncoder
+License:     No need to give us credit
 Version:     1.0
-Author:      Way2Themes
-Author Url:  https://www.way2themes.com/
-U LA T H EM ES.CO M 
+Author:      HexEncoder
+Author Url:  https://swadhin.my.id/
 ----------------------------------------------- */
 
 /*
@@ -144,11 +143,11 @@ body#layout #outer-wrapper,body#layout .row{width:auto;padding:0}body#layout{wid
 //<![CDATA[
 // Global variables with content. "Available for Edit"
 var monthFormat = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-    noThumbnail = "https://4.bp.blogspot.com/-O3EpVMWcoKw/WxY6-6I4--I/AAAAAAAAB2s/KzC0FqUQtkMdw7VzT6oOR_8vbZO6EJc-ACK4BGAYYCw/w680/nth.png",
+    noThumbnail = "",
     postPerPage = 7,
     fixedSidebar = true,
     commentsSystem = "blogger",
-    disqusShortname = "soratemplates";
+    disqusShortname = "Hexencoder";
 //]]>
 </script>
 
@@ -353,7 +352,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
             <b:if cond='data:post.featuredImage'>
               <img class='post-thumb' expr:alt='data:post.title' expr:src='resizeImage(data:post.featuredImage, 72, &quot;1:1&quot;)'/>
               <b:else/>
-              <img class='post-thumb' expr:alt='data:post.title' src='https://4.bp.blogspot.com/-O3EpVMWcoKw/WxY6-6I4--I/AAAAAAAAB2s/KzC0FqUQtkMdw7VzT6oOR_8vbZO6EJc-ACK4BGAYYCw/w680/nth.png'/>
+              <img class='post-thumb' expr:alt='data:post.title' src='https://cdn-icons-png.flaticon.com/512/5024/5024509.png'/>
             </b:if>
             <span class='post-tag'><data:post.labels.last.name/></span>
           </a>
@@ -661,13 +660,15 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
               <b:widget-setting name='text-1'>C</b:widget-setting>
               <b:widget-setting name='text-0'>Home</b:widget-setting>
               <b:widget-setting name='text-3'>popular language</b:widget-setting>
-              <b:widget-setting name='text-2'>C coading</b:widget-setting>
-              <b:widget-setting name='text-5'>Python</b:widget-setting>
-              <b:widget-setting name='text-4'>Tools of hacking</b:widget-setting>
+              <b:widget-setting name='text-2'>Projects</b:widget-setting>
+              <b:widget-setting name='text-5'>Notes</b:widget-setting>
+              <b:widget-setting name='text-4'>Projects Plan</b:widget-setting>
+              <b:widget-setting name='text-6'>Personal website</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
               <b:widget-setting name='link-1'>https://pro-grammingbd.blogspot.com/search/label/c</b:widget-setting>
               <b:widget-setting name='link-2'>https://github.com/swadhinbiswas/c-programming</b:widget-setting>
               <b:widget-setting name='link-0'>/</b:widget-setting>
+              <b:widget-setting name='link-6'>https://swadhin.my.id</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <b:include name='content'/>
@@ -724,7 +725,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
             <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
             <b:widget-setting name='displayWidth'>998</b:widget-setting>
             <b:widget-setting name='link'>Leave Blank</b:widget-setting>
-            <b:widget-setting name='caption'>Coding for everyone.</b:widget-setting>
+            <b:widget-setting name='caption'>A Personal Blog By swadhin</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
             <b:include name='content'/>
@@ -1594,6 +1595,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
             </b:includable>
             <b:includable id='postBody' var='post'> 
               <!-- Ads before post content. -->
+              
    
               <!-- Post Body Entry Content-->
               <div class='post-body post-content'>
